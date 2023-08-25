@@ -24,6 +24,10 @@ public class App {
         areatotal = arealateral + 2 * aBase;
         volumen = aBase * altura;
 
+        System.out.println("El area total es: "+areatotal);
+        System.out.println("El area lateral es: "+arealateral);
+        System.out.println("El volumen es: "+volumen);
+
 
 
 
