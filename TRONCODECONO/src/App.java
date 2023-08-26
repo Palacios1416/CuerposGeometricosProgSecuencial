@@ -25,6 +25,7 @@ public class App {
         areaTotal = areaLateral + aBasemayor + aBasemenor;
         volumen = ((3.1416) * altura * ((radiomayor*radiomayor) + (radiomenor*radiomenor) + (radiomayor*radiomenor)))/3;
 
+        System.out.println(":::::::::::::::::::::::::::::::::::");
         System.out.println("El area lateral es: "+ areaLateral);
         System.out.println("El area total es: "+ areaTotal);
         System.out.println("El volumen es: "+ volumen);
