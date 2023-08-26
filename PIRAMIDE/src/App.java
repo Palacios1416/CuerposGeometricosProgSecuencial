@@ -15,6 +15,7 @@ public class App {
         apotema = Math.sqrt((altura * altura) + (apotemaCentral * apotemaCentral));
 
         arealateral = ((4 * distancialados) * apotema) / 2 ; 
+        // 4 significa que la piramide tiene 4 lados
         aBase = distancialados*distancialados;
         areatotal = arealateral + aBase;
         volumen = (aBase * altura) / 3;
@@ -24,7 +25,7 @@ public class App {
         System.out.println("El area lateral es: " + arealateral);
         System.out.println("El area total es: " + areatotal);
         System.out.println("El volumen es: " + volumen);
-        // 4 significa que la piramide tiene 4 lados
+        
 
 
 
